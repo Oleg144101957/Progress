@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Progress</string>
+    <string name="main_text">Прогресс бар в кнопке</string>
+</resources>
