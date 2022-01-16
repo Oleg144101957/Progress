@@ -24,13 +24,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 objectAnimator.start();
-                runPercentageInButton();
+                runPercentInButton();
             }
         });
 
     }
 
-    private void runPercentageInButton(){
+    private void runPercentInButton(){
         TextView btn = (TextView) findViewById(R.id.text_view_button);
         final Handler handler = new Handler();
         handler.post(new Runnable() {
