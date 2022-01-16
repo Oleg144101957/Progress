@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-    int percent = 0;
+    private int percent = 0;
 
 
     @Override
